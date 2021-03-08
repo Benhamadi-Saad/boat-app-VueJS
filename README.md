@@ -32,7 +32,7 @@ Please follow the following steps
    
        Visit [http://localhost:8089](http://localhost:8089) in your browser.
        
-## Demo
+## [Demo](demo/demo.gif)
 #### The following user cases are implemented : 
 
 ##### UC1
