@@ -18,7 +18,7 @@ The user has a list of all boat resources
 
 The user can add or update or delete boat
 ###### Add new boat
-![UC-3-add](demo/UC-3-add.gif)
+![UC-3-add](demo/UC3-add.gif)
 ###### Update boat
 ![UC3-edit](demo/UC3-edit.gif)
 ###### Delete boat
