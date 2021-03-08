@@ -1,9 +1,13 @@
-/* eslint-disable linebreak-style */
 module.exports = {
   preset: '@vue/cli-plugin-unit-jest/presets/typescript-and-babel',
   setupFilesAfterEnv: ['./src/setup.ts'],
   testMatch: ['**/src/**/?(*.)+(spec|test).[jt]s'],
   coverageDirectory: '<rootDir>/coverage',
+  transform: {
+    'vee-validate/dist/rules': 'babel-jest',
+    'vee-validate/dist/components': 'babel-jest',
+  },
+  transformIgnorePatterns: ['/node_modules/(?!vee-validate/dist/rules)'],
   collectCoverageFrom: [
     'src/**/*.{js,ts,vue}',
     '!**/node_modules/**',

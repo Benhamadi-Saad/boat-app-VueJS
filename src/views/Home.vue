@@ -1,17 +1,27 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  </div>
+  <v-parallax
+    dark
+     class="align-self-stretch"
+    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+  >
+  <v-container fluid>
+    <v-row align="center" justify="center">
+      <v-col cols="3"></v-col>
+      <v-col cols="9">
+        <ListBoat/>
+      </v-col>
+    </v-row>
+    </v-container >
+  </v-parallax>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import ListBoat from '@/components/ListBoat.vue';
 
 @Component({
   components: {
-    HelloWorld,
+    ListBoat,
   },
 })
 export default class Home extends Vue {}

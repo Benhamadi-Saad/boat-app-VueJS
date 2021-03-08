@@ -19,6 +19,14 @@ yarn build
 ```
 yarn lint
 ```
+### Run test
+```
+yarn test
+```
+### Run test with coverage
+```
+yarn test:coverage
+```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
