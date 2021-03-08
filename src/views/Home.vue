@@ -1,7 +1,7 @@
 <template>
   <v-parallax
     dark
-     class="align-self-stretch"
+    height="100%"
     src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
   >
   <v-container fluid>
@@ -26,3 +26,8 @@ import ListBoat from '@/components/ListBoat.vue';
 })
 export default class Home extends Vue {}
 </script>
+<style scoped>
+.v-parallax {
+    height: 100%;
+}
+</style>
