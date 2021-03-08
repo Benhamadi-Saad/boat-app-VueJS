@@ -51,11 +51,11 @@ Please follow the following steps
 
 4) Add public folder in target folder
 
-![demo](demo/Capture_add_folder_public_in_Target_folder.PNG)
+   ![demo](demo/Capture_add_folder_public_in_Target_folder.PNG)
 
 5) Copy cotent of [/dist] ( step 1) and paste the content in public folder (step 4)
 
-![demo](demo/Capture_after_past_content_of_dist.PNG)
+   ![demo](demo/Capture_after_past_content_of_dist.PNG)
 
 ## Project setup
 ```
