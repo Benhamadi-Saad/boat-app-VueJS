@@ -1,15 +1,20 @@
 import Vue from 'vue';
-import Vuex from 'vuex';
+import Vuex, { StoreOptions } from 'vuex';
+import { RootState } from './model';
+import boat from './modules/boat';
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+const strict = process.env.NODE_ENV !== 'production';
+
+const storeOptions: StoreOptions<RootState> = {
+  state: {} as RootState,
   modules: {
+    boat,
   },
-});
+  strict,
+};
+
+const store = new Vuex.Store<RootState>(storeOptions);
+
+export default store;
