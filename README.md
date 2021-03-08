@@ -35,21 +35,21 @@ Authentication / Authorization (only authenticated user can access to the resour
 ## Install boat-app-gui 
 Please follow the following steps
 
-    1) Clone project from gitHub
-          ```
-             https://github.com/Benhamadi-Saad/boat-app-VueJS
-          ```
-    2) Run build command  
-          ```
-              yarn build
-          ```
+1) On the command line
+    ```
+    git clone https://github.com/Benhamadi-Saad/Boat-App.git
+    ```
+2) Run build command  
+     ```
+      yarn build
+    ```
    Capture after yarn build
    
    ![Capture after yarn build](demo/Capture_after_yarn_build.PNG)
    
-    3) Run Boat-App Spring boot
+3) Run Boat-App Spring boot 
 
-    4) Add public folder in target folder
+4) Add public folder in target folder
 
    ![demo](demo/Capture_add_folder_public_in_Target_folder.PNG)
 
@@ -57,7 +57,7 @@ Please follow the following steps
 
    ![demo](demo/Capture_after_past_content_of_dist.PNG)
    
-   6) Navigate to Boat-App
+ 6) Navigate to Boat-App
    
        Visit [http://localhost:8089](http://localhost:8089) in your browser.
        
