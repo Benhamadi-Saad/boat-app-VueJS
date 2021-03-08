@@ -1,7 +1,7 @@
 <template>
   <v-dialog v-model="showDialog" max-width="800px">
     <v-card>
-      <ValidationObserver ref="observer" v-slot="{ invalid,handleSubmit,valid }">
+      <ValidationObserver ref="observer" v-slot="{ invalid,handleSubmit }">
         <v-card-title>
           <slot name="header" />
         </v-card-title>
@@ -53,7 +53,6 @@
           <v-btn color="blue darken-1" data-test="btn-save" text :disabled="invalid" @click="handleSubmit(save)">
             Save
           </v-btn>
-          <div>{{valid}}</div>
         </v-card-actions>
       </ValidationObserver>
     </v-card>
