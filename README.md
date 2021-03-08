@@ -3,6 +3,7 @@
 ## Context
 Boat-App-Gui, It’s a simple app, where a user can get a quick overview over list of boats
 
+## Demo
 #### The following user cases are implemented : 
 
 ##### UC1
@@ -33,7 +34,24 @@ Authentication / Authorization (only authenticated user can access to the resour
 ![UC5-demo](demo/UC-Authozisation.gif)
 ## Install boat-app-gui 
 Please follow the following steps
+ 1) Clone project from gitHub
+  ```
+     https://github.com/Benhamadi-Saad/boat-app-VueJS
+  ```
+2) Run build command  
+     ```
+      yarn build
+    ```
+   Capture after yarn build
+   ![Capture after yarn build](demo/Capture_after_yarn_build.PNG)
+   
+3) Run Boat-App Spring boot
 
+4) Add public folder in target folder
+![demo](demo/Capture_add_folder_public_in_Target_folder.PNG)
+
+5)Copy cotent of [/dist] ( step 1) and paste the content in public folder (step 4)
+![demo](demo/Capture_after_past_content_of_dist.PNG)
 
 ## Project setup
 ```
