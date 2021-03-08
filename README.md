@@ -1,4 +1,4 @@
-# boat-app-gui
+# boat-app-VueJS
 
 ## Project setup
 ```
