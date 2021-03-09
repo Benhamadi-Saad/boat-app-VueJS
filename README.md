@@ -8,7 +8,7 @@ Please follow the following steps
 
 1) On the command line
     ```
-    git clone https://github.com/Benhamadi-Saad/Boat-App.git
+    git clone https://github.com/Benhamadi-Saad/boat-app-VueJS.git
     ```
 2) Run build command  
      ```
